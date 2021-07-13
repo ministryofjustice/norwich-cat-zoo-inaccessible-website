@@ -1,0 +1,111 @@
+/* General */
+
+body {
+  width: 100%;
+  background: yellow;
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+main {
+  width: 100%;
+}
+
+/* Nav bar */
+nav {
+  background-color: #cb410b;
+}
+
+nav > ul {
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #cb410b;
+  margin: 0;
+  padding: 3rem;
+}
+
+footer > ul {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+footer > ul > li {
+  margin-top: 1rem;
+}
+
+
+/* Components - Jumbotron */
+.jumbotron {
+  border: 1px solid black;
+  background-image: url("./jumbotron.jpg");
+  height: 375px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.jumbotron > h1 {
+  margin-left: 2rem;
+}
+
+
+/* Components - Visit */
+.visit {
+  border: 1px solid black;
+  background-color:  orange;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.visit__map {
+ display: inline-block;
+}
+
+.visit__text {
+  width: 45%;
+  margin-left: 2rem;
+}
+
+/* Components - Show */
+.internet-show {
+  border: 1px solid black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.internet-show__text {
+  width: 30rem;
+}
+
+.internet-show__form {
+
+}
+
+iframe {
+
+}
+
+input, textarea {
+  display: block;
+  margin-top: 1rem;
+  width: 20rem;
+}
